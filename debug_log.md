@@ -15,7 +15,14 @@ _Then I noticed another bug ..._
 
 ## Exercise 1
 
-[[Your answer goes here!]]
+- attempt to enter in pizza to get an error thrown. error occurs on line 79 on submission of pizza toppings.
+- line 79 fixed kwargs "toppings" to "topping_type"
+- line 84 fixed redirect to url_for("home") as "/" in invalid and is the raw url
+- see proper posting of orders into DB but no display.
+- line 82 was missing db commit
+- error in committing to db because of null values
+ - line 62 modified names to properly take values from form so they're not null
+ - testing fulfillment works. going to give this a naive it's fixed stamp.
 
 ## Exercise 2
 
