@@ -21,12 +21,21 @@ _Then I noticed another bug ..._
 - see proper posting of orders into DB but no display.
 - line 82 was missing db commit
 - error in committing to db because of null values
- - line 62 modified names to properly take values from form so they're not null
- - testing fulfillment works. going to give this a naive it's fixed stamp.
+- line 62 modified names to properly take values from form so they're not null
+- testing fulfillment works. going to give this a naive it's fixed stamp.
 
 ## Exercise 2
 
-[[Your answer goes here!]]
+- attempt to submit a city with celsius option. see error on line 52, key error with dict structure
+- go into logs and attempt to print results. results turn 400, nothing to geocode.
+- line 39/40 fixed names so that its pulling valid url params. printed out into console to verify non-null
+- still 400 error
+- line 45 changed 'place' to 'q' as referenced by API docs.
+- printed out resutls to verify proper return.
+- key errors still, will fix referencing docs
+- line 55 fixed 'temperature' to 'temp'
+- verified one more city to be sure, but looks fixed.
+
 
 ## Exercise 3
 
