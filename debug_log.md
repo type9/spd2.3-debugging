@@ -39,4 +39,6 @@ _Then I noticed another bug ..._
 
 ## Exercise 3
 
-[[Your answer goes here!]]
+- run main and notice first error is index out of bounds happening during merge sort splitting process.
+- line 37 changed i to j for correct iterator
+- line 48 changed division to // for rounding to floor, since decimals aren't indexes
